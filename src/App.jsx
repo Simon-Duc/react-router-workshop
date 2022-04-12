@@ -7,7 +7,7 @@ import JsDefinition from './components/JsDefinition'
 import { Route, Routes, NavLink } from "react-router-dom";
 
 const getActiveLinkStyle = ({ isActive }) => {
-  if (isActive) return { color: "orange" };
+  if (isActive) return { color: "white" };
 };
 
 function App() {

@@ -5,6 +5,12 @@ nav {
   border: 1px solid black;
   border-radius: 1rem 1rem;
   margin: 1rem;
+  background-color: darkgoldenrod;
+}
+
+nav > * {
+  color: black;
+  text-decoration: none;
 }
 
 .title {
@@ -13,4 +19,5 @@ nav {
 
 .paragraph {
   padding: 1rem;
+  text-align: justify;
 }
